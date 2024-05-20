@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context=".RegisterActivity">
+    tools:context=".Register">
 
     <TextView
         android:layout_width="match_parent"
@@ -64,23 +64,23 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/confirmPassword"
+        android:id="@+id/Phone"
         android:layout_below="@id/password"
         android:background="#30ffffff"
-        android:hint="Confirm Password"
+        android:hint="Phone"
         android:textColorHint="@color/white"
         android:textColor="@color/white"
         android:layout_margin="10dp"
         android:padding="20dp"
-        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:drawableLeft="@drawable/ic_baseline_phone_24"
         android:drawablePadding="20dp"
-        android:inputType="textPassword"/>
+        android:inputType="phone" />
 
     <com.google.android.material.button.MaterialButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/registerBtn"
-        android:layout_below="@id/confirmPassword"
+        android:layout_below="@id/Phone"
         android:text="REGISTER"
         android:backgroundTint="@color/design_default_color_secondary"
         android:layout_centerHorizontal="true"
@@ -90,11 +90,20 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/loginLink"
+        android:id="@+id/mLoginBtn"
         android:layout_below="@id/registerBtn"
         android:text="Already registered? Login"
         android:textColor="@color/black"
         android:layout_centerHorizontal="true"
         android:layout_margin="20dp"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mLoginBtn"
+        android:layout_marginTop="20dp"
+        android:indeterminate="true"
+        android:visibility="gone" />
 
 </RelativeLayout>

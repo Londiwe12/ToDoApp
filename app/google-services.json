@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "849907672729",
+    "project_id": "todoplanner-4fb27",
+    "storage_bucket": "todoplanner-4fb27.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:849907672729:android:5f39235fe220808c107a08",
+        "android_client_info": {
+          "package_name": "com.example.todoplanner"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApEzL3eq8_r16H7o_khRD8cFYYdVma60s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
